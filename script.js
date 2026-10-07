@@ -1,4 +1,4 @@
-const menuToggle = document.querySelector(".menu-toggle");
+TECHVERSE const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
@@ -32,7 +32,7 @@ const formMessage = document.getElementById("formMessage");
 registrationForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  formMessage.textContent = "Registration successful! See you at TechVerse 2026.";
+  formMessage.textContent = "Registration successful! See you at Aakaash verse 2026.";
   registrationForm.reset();
 
   setTimeout(() => {
